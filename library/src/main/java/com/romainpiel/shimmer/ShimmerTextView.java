@@ -6,6 +6,8 @@ import android.graphics.Canvas;
 import android.util.AttributeSet;
 import android.widget.TextView;
 
+import com.romainpiel.shimmer.customView.MyTextView;
+
 /**
  * Shimmer
  * User: romainpiel
@@ -15,7 +17,7 @@ import android.widget.TextView;
  * Shimmering TextView
  * Dumb class wrapping a ShimmerViewHelper
  */
-public class ShimmerTextView extends TextView implements ShimmerViewBase {
+public class ShimmerTextView extends MyTextView implements ShimmerViewBase {
 
     private ShimmerViewHelper shimmerViewHelper;
 

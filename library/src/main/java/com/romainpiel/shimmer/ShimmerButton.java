@@ -4,7 +4,8 @@ import android.content.Context;
 import android.content.res.ColorStateList;
 import android.graphics.Canvas;
 import android.util.AttributeSet;
-import android.widget.Button;
+
+import com.romainpiel.shimmer.customView.MyButtonView;
 
 /**
  * Shimmer
@@ -15,7 +16,7 @@ import android.widget.Button;
  * Shimmering Button
  * Dumb class wrapping a ShimmerViewHelper
  */
-public class ShimmerButton extends Button implements ShimmerViewBase {
+public class ShimmerButton extends MyButtonView implements ShimmerViewBase {
 
     private ShimmerViewHelper shimmerViewHelper;
 
